@@ -1,0 +1,170 @@
+*,.website{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.website{
+    display: flex;
+    flex-direction: column;
+}
+/*-----------------------NAVBAR-------------------------*/
+.nav{
+    width: 100%;
+    height: 19vh;
+    background-color: grey;
+    display: inline-flex;
+    flex-direction: column;
+}
+.nav .logo .login{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.nav .logo .login p{
+    letter-spacing:4px;
+}
+.nav .logo .login button{
+    width: 70px;
+    height: 4vh;
+    border-radius: 1vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    background-color: #4CAF50;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+}
+.nav .logo .w3school{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px;
+}
+.nav .nav-bar{
+    width: 100%;
+    height: 9vh;
+    background-color: #4CAF50;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.nav .nav-bar .right{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    margin-right: 3vh;
+}
+.nav .nav-bar .right i{
+    margin-left: 5vh;
+    color: white;
+    font-size: 20px;
+}
+.nav .nav-bar .left{
+    margin-top: 3vh;
+    
+}
+.nav .nav-bar .left a{
+    color: white;
+    padding: 8px 16px;
+    font-size: 18px;
+    letter-spacing:4px;
+}
+.nav .logo{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+/*-----------------------CONTAİNER-------------------------*/
+.container{
+    width: 100%;
+    height: 81vh;
+    display: flex;
+    flex-direction: row;
+}
+.container .leftside{
+    height: 100%;
+    width: 20%;
+    
+}
+.container .leftside .block{
+    width: 35vh;
+    height: 50vh;
+}
+.container .leftside .block .content{
+    padding: 17px 17px;
+    display: flex;
+    flex-direction: column;
+}
+.container .leftside .block .content a{
+    font-size: 18px;
+    color: black;
+
+}
+.container .rightside{
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+}
+.container .rightside .place{
+    width: 100%;
+    height: 90vh;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+}
+.container .rightside .place .section{
+    width: 100%;
+    height: 100%;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+
+}
+.container .rightside .place .section .html{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .rightside .place .section .html .buttons{
+    margin-top: 5vh;
+}
+.container .rightside .place .section .example{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .rightside .place .section .example .square{
+    width: 530px;
+    height: 350px;
+    background-color: #f1f1f1;
+    margin: 4vh;
+}
+.container .rightside .place .section .example .square .html-content{
+    padding: 15px 20px;
+    margin-top: 5vh;
+
+}
+.container .rightside .place .section .example .square .html-content .html-square{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}
+
+
